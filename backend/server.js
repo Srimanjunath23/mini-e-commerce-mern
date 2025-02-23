@@ -2,12 +2,15 @@ const express=require('express');
 const app=express();
 const dotenv=require('dotenv');
 const path=require('path');
+const cors=require('cors')
 const dbConnection = require('./config/dbConnection');
 dotenv.config({path:path.join(__dirname,'config','config.env')})
 
 const product=require('./routes/product');
 const order=require('./routes/order');
+
 app.use(express.json());
+app.use(cors());
 dbConnection();
 app.use('/api/v1',product);
 app.use('/api/v1',order);

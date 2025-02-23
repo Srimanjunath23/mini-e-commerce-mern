@@ -1,83 +1,146 @@
 [
-    {
-      "name": "Smartphone X",
-      "price": "599",
-      "description": "A high-end smartphone with amazing features.",
-      "ratings": "4.5",
-      "images": [
-        {
-          "image": "https://example.com/images/smartphone-x.jpg"
-        }
-      ],
-      "category": "Electronics",
-      "seller": "TechStore",
-      "stock": "50",
-      "numofReview": "120",
-      "createdAt": "2025-02-23T12:00:00Z"
-    },
-    {
-      "name": "Wireless Headphones",
-      "price": "199",
-      "description": "Noise-canceling wireless headphones with deep bass.",
-      "ratings": "4.7",
-      "images": [
-        {
-          "image": "https://example.com/images/headphones.jpg"
-        }
-      ],
-      "category": "Accessories",
-      "seller": "AudioMart",
-      "stock": "100",
-      "numofReview": "85",
-      "createdAt": "2025-02-23T12:10:00Z"
-    },
-    {
-      "name": "Gaming Laptop",
-      "price": "1299",
-      "description": "Powerful gaming laptop with RTX 4060 graphics card.",
+  {
+      "name": "Fresh Organic Apples",
+      "price": "₹120",
+      "description": "Crisp and juicy organic apples sourced locally.",
       "ratings": "4.8",
       "images": [
-        {
-          "image": "https://example.com/images/gaming-laptop.jpg"
-        }
+          {
+              "image": "/images/products/1.jpg"
+          }
       ],
-      "category": "Computers",
-      "seller": "GamerZone",
-      "stock": "20",
-      "numofReview": "200",
-      "createdAt": "2025-02-23T12:20:00Z"
-    },
-    {
-      "name": "4K Smart TV",
-      "price": "899",
-      "description": "A 55-inch 4K Ultra HD Smart TV with HDR.",
+      "category": "Fruits",
+      "seller": "LocalFarm",
+      "stock": "100",
+      "numofReview": "45",
+      "createdAt": "2025-02-23T08:00:00Z"
+  },
+  {
+      "name": "Whole Wheat Bread",
+      "price": "₹40",
+      "description": "Freshly baked whole wheat bread with no preservatives.",
+      "ratings": "4.7",
+      "images": [
+          {
+               "image": "/images/products/2.jpg"
+          }
+      ],
+      "category": "Bakery",
+      "seller": "CityBakery",
+      "stock": "50",
+      "numofReview": "30",
+      "createdAt": "2025-02-23T08:10:00Z"
+  },
+  {
+      "name": "Farm Fresh Milk",
+      "price": "₹75",
+      "description": "Pure and fresh milk sourced from local dairy farms.",
+      "ratings": "4.9",
+      "images": [
+          {
+               "image": "/images/products/3.jpg"
+          }
+      ],
+      "category": "Dairy",
+      "seller": "DairyFresh",
+      "stock": "200",
+      "numofReview": "80",
+      "createdAt": "2025-02-23T08:20:00Z"
+  },
+  {
+      "name": "Organic Brown Eggs",
+      "price": "₹150",
+      "description": "A dozen farm-fresh organic brown eggs.",
       "ratings": "4.6",
       "images": [
-        {
-          "image": "https://example.com/images/smart-tv.jpg"
-        }
+          {
+               "image": "/images/products/4.jpg"
+          }
       ],
-      "category": "Home Appliances",
-      "seller": "HomeTech",
-      "stock": "30",
-      "numofReview": "150",
-      "createdAt": "2025-02-23T12:30:00Z"
-    },
-    {
-      "name": "Bluetooth Speaker",
-      "price": "99",
-      "description": "Portable Bluetooth speaker with powerful sound.",
-      "ratings": "4.4",
+      "category": "Dairy",
+      "seller": "FarmNest",
+      "stock": "80",
+      "numofReview": "60",
+      "createdAt": "2025-02-23T08:30:00Z"
+  },
+  {
+      "name": "Fresh Carrots",
+      "price": "₹50",
+      "description": "Crunchy and nutritious farm-fresh carrots.",
+      "ratings": "4.7",
       "images": [
-        {
-          "image": "https://example.com/images/speaker.jpg"
-        }
+          {
+              "image": "/images/products/5.jpg"
+          }
       ],
-      "category": "Accessories",
-      "seller": "MusicWorld",
-      "stock": "75",
-      "numofReview": "95",
-      "createdAt": "2025-02-23T12:40:00Z"
-    }
-  ]
-  
+      "category": "Vegetables",
+      "seller": "OrganicHarvest",
+      "stock": "150",
+      "numofReview": "50",
+      "createdAt": "2025-02-23T08:40:00Z"
+  },
+  {
+      "name": "Handmade Butter",
+      "price": "₹250",
+      "description": "Rich and creamy handmade butter with no additives.",
+      "ratings": "4.9",
+      "images": [
+          {
+               "image": "/images/products/6.jpg"
+          }
+      ],
+      "category": "Dairy",
+      "seller": "PureDairy",
+      "stock": "40",
+      "numofReview": "35",
+      "createdAt": "2025-02-23T08:50:00Z"
+  },
+  {
+      "name": "Almond Cookies",
+      "price": "₹80",
+      "description": "Delicious almond-flavored cookies with a crunchy texture.",
+      "ratings": "4.5",
+      "images": [
+          {
+            "image": "/images/products/7.jpg"
+          }
+      ],
+      "category": "Bakery",
+      "seller": "SweetCrumbs",
+      "stock": "60",
+      "numofReview": "40",
+      "createdAt": "2025-02-23T09:00:00Z"
+  },
+  {
+      "name": "Fresh Orange Juice",
+      "price": "₹180",
+      "description": "100% pure, fresh orange juice with no added sugar.",
+      "ratings": "4.8",
+      "images": [
+          {
+               "image": "/images/products/8.jpg"
+          }
+      ],
+      "category": "Beverages",
+      "seller": "JuiceHub",
+      "stock": "90",
+      "numofReview": "55",
+      "createdAt": "2025-02-23T09:10:00Z"
+  },
+  {
+      "name": "Raw Honey",
+      "price": "₹350",
+      "description": "Pure, organic raw honey harvested from local farms.",
+      "ratings": "4.9",
+      "images": [
+          {
+               "image": "/images/products/9.jpg"
+          }
+      ],
+      "category": "Grocery",
+      "seller": "NatureHive",
+      "stock": "30",
+      "numofReview": "25",
+      "createdAt": "2025-02-23T09:20:00Z"
+  }
+]
