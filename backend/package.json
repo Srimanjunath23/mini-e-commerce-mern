@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Mini e commerce website for learning MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srimanjunath23/mini-e-commerce-mern.git"
+  },
+  "author": "SRIMANJUNATH R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srimanjunath23/mini-e-commerce-mern/issues"
+  },
+  "homepage": "https://github.com/Srimanjunath23/mini-e-commerce-mern#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}

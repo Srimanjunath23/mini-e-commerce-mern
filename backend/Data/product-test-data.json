@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Smartphone X",
+      "price": "599",
+      "description": "A high-end smartphone with amazing features.",
+      "ratings": "4.5",
+      "images": [
+        {
+          "image": "https://example.com/images/smartphone-x.jpg"
+        }
+      ],
+      "category": "Electronics",
+      "seller": "TechStore",
+      "stock": "50",
+      "numofReview": "120",
+      "createdAt": "2025-02-23T12:00:00Z"
+    },
+    {
+      "name": "Wireless Headphones",
+      "price": "199",
+      "description": "Noise-canceling wireless headphones with deep bass.",
+      "ratings": "4.7",
+      "images": [
+        {
+          "image": "https://example.com/images/headphones.jpg"
+        }
+      ],
+      "category": "Accessories",
+      "seller": "AudioMart",
+      "stock": "100",
+      "numofReview": "85",
+      "createdAt": "2025-02-23T12:10:00Z"
+    },
+    {
+      "name": "Gaming Laptop",
+      "price": "1299",
+      "description": "Powerful gaming laptop with RTX 4060 graphics card.",
+      "ratings": "4.8",
+      "images": [
+        {
+          "image": "https://example.com/images/gaming-laptop.jpg"
+        }
+      ],
+      "category": "Computers",
+      "seller": "GamerZone",
+      "stock": "20",
+      "numofReview": "200",
+      "createdAt": "2025-02-23T12:20:00Z"
+    },
+    {
+      "name": "4K Smart TV",
+      "price": "899",
+      "description": "A 55-inch 4K Ultra HD Smart TV with HDR.",
+      "ratings": "4.6",
+      "images": [
+        {
+          "image": "https://example.com/images/smart-tv.jpg"
+        }
+      ],
+      "category": "Home Appliances",
+      "seller": "HomeTech",
+      "stock": "30",
+      "numofReview": "150",
+      "createdAt": "2025-02-23T12:30:00Z"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "price": "99",
+      "description": "Portable Bluetooth speaker with powerful sound.",
+      "ratings": "4.4",
+      "images": [
+        {
+          "image": "https://example.com/images/speaker.jpg"
+        }
+      ],
+      "category": "Accessories",
+      "seller": "MusicWorld",
+      "stock": "75",
+      "numofReview": "95",
+      "createdAt": "2025-02-23T12:40:00Z"
+    }
+  ]
+  
