@@ -17,5 +17,5 @@ app.use('/api/v1',order);
 
 
 app.listen(process.env.PORT,()=>{
-    console.log(`Server is running on PORT:${process.env.PORT}\n`);
+    console.log(`Server is  running on PORT:${process.env.PORT}\n`);
 })

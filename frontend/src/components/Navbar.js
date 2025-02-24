@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Search from './Search'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({cartItems}) => {
   return (
    <Fragment>
      <nav className="navbar conatiner row">
@@ -23,11 +23,15 @@ const Navbar = () => {
       </div>
 
       <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+        <Link to={'/cart'}>
         <button className='btn btn-success'>
         <span id="cart" className="ml-3 me-1">Cart</span>
-        <span className="ml-1" id="cart_count">2</span>
+        <span className="ml-1" id="cart_count">{cartItems.length}</span>
 
         </button>
+
+        </Link>
+     
         
       </div>
     </nav>

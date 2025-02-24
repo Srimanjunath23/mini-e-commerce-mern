@@ -8,10 +8,10 @@ const ProductCard = ({product}) => {
   
 
   <div className="col-sm-12 col-md-6 col-lg-3 my-3">
-  <div className="card mx-2 p-3 rounded border-0 shadow-sm h-100 transition">
+  <div className="card mx-2 p-3 rounded border-0 shadow h-100 transition">
 
     <div className="d-flex justify-content-center">
-      <img className="card-img-top img-fluid" src={product.images[0].image} alt="Product" style={{ maxHeight: "180px", objectFit: "contain" }} />
+      <img className="card-img-top img-fluid rounded" src={product.images[0].image} alt="Product" style={{ maxHeight: "180px", objectFit: "contain" }} />
     </div>
 
     <div className="card-body d-flex flex-column text-center">
