@@ -5,7 +5,8 @@ const orderSchema=mongoose.Schema({
     amount:String,
     status:String,
     createdAT:Date,
-    address:String
+    address:String,
+    number:String
 
 });
 

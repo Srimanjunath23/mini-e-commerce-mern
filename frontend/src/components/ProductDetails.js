@@ -11,7 +11,7 @@ const ProductDetails = ({cartItems,setCartItems}) => {
         .then((res)=>res.json())
         .then((res)=>setproduct(res.product))
     
-      },[]);
+      });
       function addtocart(){
         const itemExist=cartItems.find((item)=>item.product._id===product._id);
       
@@ -54,14 +54,14 @@ const ProductDetails = ({cartItems,setCartItems}) => {
             */}
 
             
-                <p id="product_price">{product.price}</p>
+                <p id="product_price">₹{product.price}</p>
                 <div className="stockCounter d-inline">
                     <span className="btn btn-danger minus" onClick={decrement}>-</span>
 
                     <input type="number" className="form-control count d-inline" value={qty} readOnly />
 
-                    <span className="btn btn-primary plus" onClick={increment}>+</span>
-                    <button type="button"  className="btn btn-dark w- d-inline ml-4 ms-5 rounded-pill" disabled={product.stock===0} onClick={addtocart}>Add to Cart</button>
+                    <span className="btn btn-success plus" onClick={increment}>+</span>
+                    <button type="button"  className="btn btn-warning w- d-inline ml-4 ms-5 rounded-pill" disabled={product.stock===0} onClick={addtocart}>Add to Cart</button>
 
                 </div>
                

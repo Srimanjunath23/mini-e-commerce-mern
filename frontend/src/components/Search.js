@@ -14,7 +14,7 @@ const Search = () => {
         <input
             type="text"
             id="search_field"
-            className="form-control me-1 rounded"
+            className="form-control  ms-5 me-3 w-50 rounded"
             onChange={(e)=>setkeyword(e.target.value)}
             onBlur={searchHandle} 
             placeholder="Enter Product Name ..."
